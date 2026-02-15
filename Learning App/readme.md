@@ -64,4 +64,10 @@
 
 הפרויקט מופץ כקוד פתוח וניתן לשימוש ולהרחבה.
 
+<img src="https://github.com/BSdeployment/React-Apps/blob/main/Learning%20App/img/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202026-02-15%20234615.png?raw=true"
+  width="300"
+  />
+
+
+
 </div>
