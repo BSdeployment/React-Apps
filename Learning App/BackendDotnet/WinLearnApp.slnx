@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="b2cbda33-b392-4326-bd05-d733709ac239">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="LearningApp.Application/LearningApp.Application.csproj" />
+  <Project Path="LearningApp.Core/LearningApp.Core.csproj" />
+  <Project Path="LearningApp.Data/LearningApp.Data.csproj" />
+  <Project Path="LearningApp.WinForms/LearningApp.WinForms.csproj" Id="45ae3e2f-4a86-4e38-826d-82afba21fc29">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="MauiLearning/MauiLearning.csproj" Id="d19d48bd-7e4b-4598-9c4a-e0e56202cec2" />
+</Solution>
