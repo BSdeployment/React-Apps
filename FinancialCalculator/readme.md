@@ -1,5 +1,5 @@
 
-<div> 
+<div dir="rtl"> 
 # 📈 Savings & Interest Calculator (Cross-Platform)
 
 מחשבון פיננסי היברידי לחישוב חסכונות לטווח ארוך וריבית דריבית. הפרויקט משלב לוגיקת UI אחת ב-**React** עם מעטפת Native ייעודית ל-Windows ול-Android.
