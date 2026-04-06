@@ -85,6 +85,8 @@ This will generate a native executable (.exe) ready for distribution.
 
 ---
 
+<img src="https://github.com/BSdeployment/React-Apps/blob/main/MdEditor/img.png?raw=true" width="500"/>
+
 ## 💡 Inspiration
 
 Built as a learning and exploration project combining modern web technologies with native desktop capabilities.
