@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #aabde9;
+  color: #e2e8f0;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  ;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.title::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #2563eb;
+  margin: 10px auto 0;
+
+}
+.editor-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+  overflow: visible; 
+}
+
+.title:hover::after {
+  background: #1d4ed8;
+  width: 80px;
+  transition: all 0.3s ease;
+}
+.credit {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #2563eb;
+}
+
+.mdxeditor {
+  min-height: 300px;
+}
+
+/* Toolbar */
+.mdxeditor-toolbar {
+  background: #ebebeb;
+  border-bottom: 1px solid #1e293b;
+  padding: 10px;
+
+
+   position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Editor content */
+.mdxeditor-content {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Preview */
+.preview {
+  margin-top: 20px;
+  background: #020617;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+}
+
+.preview pre {
+  white-space: pre-wrap;
+  color: #38bdf8;
+}
+
+.floating-save-btn {
+  position: fixed;
+  top: 80px; /* מתחת ל-toolbar */
+  right: 20px;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  background: #2563eb;
+  color: white;
+  border: none;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  z-index: 2000;
+
+  transition: all 0.2s ease;
+}
+
+.floating-save-btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.1);
+}
